@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Color Fool</title>
+  <style>
+    :root {
+      --bg: #0B1017;
+      --card: #131B27;
+      --border: #223249;
+      --text: #F1F5F9;
+      --muted: #94A3B8;
+      --accent: #38BDF8;
+      --accent-hover: #0284C7;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 32px;
+      margin-bottom: 14px;
+      border-left: 3px solid var(--accent);
+      padding-left: 12px;
+    }
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #E2E8F0;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+    p {
+      margin-bottom: 14px;
+      color: #CBD5E1;
+    }
+    ul {
+      margin-left: 24px;
+      margin-bottom: 16px;
+      color: #CBD5E1;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+    .card-notice {
+      background: rgba(56, 189, 248, 0.08);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      border-radius: 10px;
+      padding: 16px;
+      margin: 18px 0;
+    }
+    .card-notice p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <strong>Color Fool</strong> (<code>com.pritampips.color_fool</code>) &bull; Effective Date: October 2, 2026 &bull; Version 1.2+
+    </div>
+
+    <p>This Privacy Policy explains how <strong>Color Fool</strong> ("we", "our", or "the App"), developed by <strong>Pritam Mondal (PritamPips)</strong>, collects, uses, and discloses information when you use our mobile application. We are committed to transparency and respecting player privacy.</p>
+
+    <h2>1. Information We Collect and Process</h2>
+    <h3>A. Information Stored Locally on Your Device</h3>
+    <ul>
+      <li><strong>Player Display Name:</strong> You can customize an in-game nickname solely to identify yourself on your local screen and in multiplayer lobbies. It is saved locally on your device via <code>AsyncStorage</code>. No user account, email, or password is created or stored.</li>
+      <li><strong>Game Preferences:</strong> Settings such as slider orientation (left-handed or right-handed), custom timer durations, and difficulty levels are stored locally on your device.</li>
+    </ul>
+
+    <h3>B. Information We Do NOT Collect Directly</h3>
+    <p>Color Fool does not collect:</p>
+    <ul>
+      <li>Personal Identifiable Information (real names, physical home addresses, phone numbers, or emails).</li>
+      <li>Financial, credit card, or payment data.</li>
+      <li>Device contacts, photo library, camera, or microphone data.</li>
+      <li>Precise GPS location.</li>
+    </ul>
+
+    <h2>2. Third-Party Services & Advertising (Google AdMob)</h2>
+    <p>To support continuous development and offer Color Fool as a free game, the App displays third-party advertisements served by <strong>Google AdMob</strong>.</p>
+    
+    <div class="card-notice">
+      <p><strong>Non-Personalized Ads & Frequency Cap:</strong> We configure ad requests to non-personalized modes (<code>requestNonPersonalizedAdsOnly: true</code>). Furthermore, interstitial ads are capped to show strictly at natural match transitions, at most once every 2 finished games.</p>
+    </div>
+
+    <p>The Google Mobile Ads SDK integrated into the App may automatically collect and process certain data for advertising, fraud prevention, and analytics:</p>
+    <ul>
+      <li><strong>Online & Device Identifiers:</strong> Android Advertising ID (<code>AD_ID</code> / <code>AAID</code>), device identifiers, IP address, and connection characteristics.</li>
+      <li><strong>Interaction & Diagnostic Data:</strong> Ad views, clicks, crash logs, and app performance diagnostics.</li>
+      <li><strong>Coarse Location:</strong> Non-precise general location derived from IP addresses to deliver geographically compliant ads.</li>
+    </ul>
+
+    <p>For detailed information on how Google handles advertising data, please refer to:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+      <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a></li>
+      <li><a href="https://developers.google.com/admob/android/data-safety" target="_blank" rel="noopener noreferrer">Google AdMob Data Safety Guide</a></li>
+    </ul>
+
+    <h3>Managing Your Advertising ID & Opting Out</h3>
+    <p>You have full control over your advertising identifiers. You can reset or delete your Advertising ID on your Android device at any time:</p>
+    <ul>
+      <li>Open <strong>Settings</strong> on your Android phone.</li>
+      <li>Go to <strong>Google</strong> &rarr; <strong>Ads</strong> (or <strong>All services</strong> &rarr; <strong>Ads</strong>).</li>
+      <li>Tap <strong>Reset advertising ID</strong> or <strong>Delete advertising ID</strong>.</li>
+    </ul>
+
+    <h2>3. Real-Time Multiplayer Infrastructure (Supabase)</h2>
+    <p>Color Fool offers live multiplayer rooms powered by <strong>Supabase Realtime</strong>:</p>
+    <ul>
+      <li><strong>Transient & Ephemeral:</strong> 6-digit room codes, live color slider guesses, and round standings are exchanged over secure, encrypted WebSockets (<code>wss://</code>).</li>
+      <li><strong>No Persistent Profiles:</strong> Player presence and scores exist only during the active match and are permanently cleared when the room closes or players disconnect.</li>
+      <li>Learn more at <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase Privacy Policy</a>.</li>
+    </ul>
+
+    <h2>4. Offline Solo Play</h2>
+    <p>Solo gameplay runs 100% locally on your device. Color difference formulas (CIELAB &Delta;E), timers, and scoring algorithms execute entirely offline without transmitting gameplay data across the internet.</p>
+
+    <h2>5. Data Security</h2>
+    <p>All network communications (multiplayer synchronization, ad requests) are transmitted exclusively using industry-standard Transport Layer Security (HTTPS / TLS / WSS) encryption.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>Color Fool is intended for general audiences aged 13 and older. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information, please contact us for immediate deletion.</p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy periodically. Any modifications will be posted on this page with an updated Effective Date.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions or concerns regarding this Privacy Policy, please contact:</p>
+    <ul>
+      <li><strong>Developer:</strong> Pritam Mondal (PritamPips)</li>
+      <li><strong>Email:</strong> <a href="mailto:pritampipslab@gmail.com">pritampipslab@gmail.com</a></li>
+      <li><strong>Developer Site:</strong> <a href="https://pipspritam.github.io/">https://pipspritam.github.io/</a></li>
+    </ul>
+
+    <footer>
+      &copy; 2026 Pritam Mondal &bull; Color Fool &bull; All Rights Reserved
+    </footer>
+  </div>
+</body>
+</html>
